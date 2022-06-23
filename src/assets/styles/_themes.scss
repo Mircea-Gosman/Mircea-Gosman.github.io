@@ -1,0 +1,14 @@
+@import '_colors.scss';
+@import '_mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+//Reference: https://fonts.google.com/specimen/Inter
+
+// Themes
+[theme="light"] {
+  --interimBackground: #{$smooth-black};
+  --background: #{$vanilla-white};
+  --action: #{$bland-yellow};
+  --passive-text: #{$vanilla-white};
+  --text: #{$sharp-black};
+  --icon: #{$smooth-black};
+}

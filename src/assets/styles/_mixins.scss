@@ -1,0 +1,7 @@
+@mixin action-button {
+  font-family: Inter, serif;
+  font-weight: bolder;
+  text-transform: none;
+  background-color: var(--action) !important;
+  color: var(--action-text) !important;
+}

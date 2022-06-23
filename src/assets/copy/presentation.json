@@ -1,0 +1,61 @@
+[
+  {
+    "meta": "Hey",
+    "body": "I’ll be a Software Engineering student at McGill University until December 2023. I’m seeking a challenging internship for next Summer."
+  },
+  {
+    "meta": "Projects",
+    "title": "1. Kollecto / NFTea",
+    "hook": "Anyone can do Web3: it’s just web.",
+    "body": "With 9 other students, I started working on a marketplace that allows users to create NFTs from their Instagram content.",
+    "links": [
+      "https://github.com/Mircea-Gosman/Kollecto"
+    ]
+  },
+  {
+    "meta": "Projects",
+    "title": "2. Pause the Schedule",
+    "hook": "I’ve been into CS since before University.",
+    "body": "Back then, I built a computer vision tool to scan my friends’ schedules so that I can know when they’re available for lunch.",
+    "links": [
+      "https://github.com/Mircea-Gosman/Pause"
+    ]
+  },
+  {
+    "meta": "Projects",
+    "title": "3. Local Freelance",
+    "hook": "I love to make design accessible.",
+    "body": "At the start of the pandemic, I offered two local businesses web redesigns. These were my very first websites.",
+    "links": [
+      "https://barbershop.mirceagosman.com/",
+      "https://icecreamshop.mirceagosman.com/"
+    ]
+  },
+  {
+    "meta": "Internships",
+    "title": "2022 Morgan Stanley",
+    "hook": "That’s where I’m at right now!",
+    "body": "It’s very WiP, but the web app I’m working on dynamically creates flow diagrams of system architectures from scratch."
+  },
+  {
+    "meta": "Internships",
+    "title": "2021 Wise Systems",
+    "hook": "Startups are the best place to learn Agile.",
+    "body": "There I learned what PMs, designers and engineers really are. I did front-to-back web in their new permissioning squad!"
+  },
+  {
+    "meta": "Internships",
+    "title": "2019/20 Bombardier",
+    "hook": "This was my first job, like ever.",
+    "body": "The supplier & QA department produced loads of data from supplier audits. Help with analyzing & displaying that data was me!",
+    "links": [
+      "https://bombardierquality.service-now.com/sp"
+    ]
+  },
+  {
+    "meta": "Contact",
+    "title": "Summer 2023 ?",
+    "body": "I am open for a Summer 2023 internship. Welcome are also full time positions starting in January 2024. ",
+    "postScriptum": "P.S. There’s a world in which I can graduate by May 2023 if a suiting card is played. The deck is yours to shuffle! "
+  }
+]
