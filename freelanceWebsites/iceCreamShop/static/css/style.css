@@ -1,0 +1,405 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif; /*'lobster', cursive;*/
+    font-size: 16px;
+    color: #212121;
+    background-color: rgba(255, 242, 224, 1);
+}
+button {
+  border-radius: 30px;
+  color: #fff6f5;
+  background-color: #e03131;
+  border: 2px solid #e03131;
+  padding: 0.5rem 1rem;
+}
+button:hover {
+  color: #e03131;
+  background-color: #fff6f5;
+}
+button > h3 {
+  display:inline;
+}
+/* Nav */
+.site-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 5;
+}
+
+.nav-wrapper {
+  background-color: transparent;
+  font-size: 3rem;
+}
+
+.navbar-default {
+  background: none;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-style: italic;
+  color: #212121;
+}
+.nav-link > span {
+  font-family: 'Chilanka', cursive;
+  font-size: 1.5rem;
+}
+
+.nav-button {
+  padding: 0.5rem 0.2rem;
+  border-radius: 10px;
+  background-color: #e34646;
+  border-color: #e34646;
+}
+
+.nav-button:hover {
+  background-color: #e35959;
+  border-color: #e35959;
+}
+
+.nav-button > h3 {
+  color:#fff6f5;
+}
+
+.drop-down {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.drop-down-line {
+  height: 3px;
+  width: 30px;
+  margin-top: 0.4rem;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.first-line {
+  margin-top: 0rem;
+}
+
+#extended-nav {
+  list-style: none;
+  width: 10rem;
+}
+
+.nav-sub-button {
+  background-color: rgba(227, 70, 70, 0.8);
+  border: 0px;
+  border-radius: 0px;
+}
+
+span > .nav-sub-button {
+  width: 100%;
+}
+
+.nav-sub-button > h3 {
+  font-size: 1rem;
+}
+
+/* Hero */
+.main-background {
+  background: no-repeat center / cover;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(../images/facade_couleur.jpg);
+  width: 100%;
+  min-height: 700px;
+  /*box-shadow: inset 0 -10px 10px -10px #000000;*/
+}
+
+.main-text {
+  text-align: center;
+  margin-top: 25%;
+  grid-column: 1 / span 12;
+  font-size: 10rem;
+  font-weight: bold;
+  color: #fffcf2;
+  font-family: 'Fredoka One', cursive;
+  /*text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;*/
+  z-index: 4;
+}
+
+.accent-titre {
+  font-size: 10rem;
+}
+
+.horaire-wrapper{
+  text-align: center;
+}
+
+#horaire {
+  cursor: pointer;
+  vertical-align: middle;
+  color: #fff6f5 !important;
+  font-size: 2rem;
+  font-family: 'Chilanka', cursive;
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
+}
+#horaire:hover{
+  color:#e03131 !important;
+}
+
+/* Transition */
+.transition-wrapper > ul{
+  display: grid;
+  grid-columns: repeat(15, 1fr);
+  list-style: none;
+}
+
+.transition-wrapper > ul :nth-child(1) {
+  grid-column: 2 / span 2;
+}
+
+.transition-wrapper  > ul :nth-child(2) {
+  grid-column: 8 / span 2;
+}
+
+.transition-wrapper  > ul :nth-child(3) {
+  grid-column: 14 / span 2;
+}
+
+.bi-chevron-down {
+  width: 10rem;
+  height: 10rem;
+  margin: -2rem;
+  padding: 2rem;
+  background-color: #e03131;
+  color:white;
+  border-radius: 100%;
+  position: relative;
+  z-index: 3;
+}
+
+.main-bi-chevron-down  {
+  width: 20rem;
+  height: 20rem;
+  margin: -7rem;
+}
+
+.icecream-wrapper{
+  margin: -2rem;
+}
+
+.icecream {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  position: relative;
+}
+
+.icecream::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  height: 30px;
+  width: 10rem;
+  background-color: rgba(255, 242, 224, 1);
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.cone {
+  margin-top: -20px;
+  margin-left: 2.2rem;
+  height: 0px;
+  width: 0px;
+  border-right: 45px solid transparent;
+  border-left: 45px solid transparent;
+  border-top: 140px solid tan;
+  z-index: 1;
+}
+
+/* Produits */
+.section-title {
+  font-family: 'Chilanka', cursive;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+.section-description{
+  font-family: 'Chilanka', cursive;
+  text-align: center;
+}
+
+.produits {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.produit {
+  text-align: center;
+}
+
+.produit > h2 {
+  margin-top: 3rem;
+  font-family: 'Chilanka', cursive;
+}
+
+.produit > button {
+  margin-top: 1rem;
+}
+.bi-caret-right-fill {
+  margin-left: 0.4rem;
+  transform: scale(1.3);
+  margin-bottom: 10%;
+}
+
+.produit > button > h3 {
+}
+
+/* Publicite */
+.section-publicite {
+  background: no-repeat center / cover;
+  background-image: url(../images/sirio.jpg);
+  width: 100%;
+  min-height: 700px;
+}
+
+.wave {
+  margin-top:-4px;
+}
+
+.titre-publicite {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff6f5;
+  background-color: rgba(0,0,0,0.5);
+  margin: -2rem;
+  padding: 2rem;
+}
+
+.wrapper-bouton-publicite {
+  text-align: center;
+  align-self: center;
+}
+
+.bouton-publicite {
+  padding: 2rem 5rem;
+  border-radius: 50px;
+}
+
+.bouton-publicite:hover{
+  background-color:#fffcf2;
+}
+
+/* Footer */
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgba(0,0,0,0.05);
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #212121;
+}
+
+.footer-title:hover{
+  color: #e03131;
+}
+
+#carriere > p {
+  margin-top: 1rem;
+}
+
+.footer-element :nth-child(n){
+  display: inline;
+}
+
+.footer-element > svg {
+  vertical-align: inherit;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.icons {
+  text-align: right;
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+.icons > a {
+  color: #212121;
+}
+.icons > a:hover {
+  color: #e03131;
+}
+
+.copy {
+  font-size: 1rem;
+  text-align: right;
+  display: block;
+}
+
+/* Me */
+#mircea {
+  color: #212121;
+  font-weight: bold;
+}
+
+#mircea:hover {
+  color: #e03131;
+}
+
+
+/* Modals */
+.modal-header {
+  text-align: center;
+  background-color: rgba(255, 242, 224, 1);
+  font-family: 'Fredoka One', cursive;
+  font-weight:lighter;
+}
+
+.modal-body {
+  padding: 3rem;
+}
+#signature {
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: 'Chilanka', cursive;
+}
+#facebook{
+  display: flex;
+  justify-content: center;
+}
+
+
+.case-horaire {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.case-horaire > h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Chilanka', cursive;
+}
+.case-horaire > p {
+    font-size: 1rem;
+}
+.case-horaire-finale {
+    margin-bottom: 0rem;
+}
+#signature-horaire {
+    text-align: center;
+    display:block;
+    background-color: #32db49;
+}
+#signature-horaire > p > span {
+    font-family: 'Fredoka One', cursive;
+}

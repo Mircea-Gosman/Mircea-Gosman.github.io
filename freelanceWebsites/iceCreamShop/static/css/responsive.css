@@ -1,0 +1,212 @@
+@media only screen and (max-width : 1199px) and (min-width : 768px) {
+	/* Nav
+	================================================== */
+  .section-publicite {
+    min-height: 0px;
+  }
+  .titre-publicite {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .horaire-wrapper {
+    margin-top:1rem;
+  }
+
+  .wrapper-bouton-publicite > button {
+  padding: 1rem 2rem;
+  }
+
+  .main-background {
+    min-height: 500px;
+  }
+  .main-text {
+    margin-top: 12rem;
+    text-align: center;
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+  
+}
+
+@media only screen and (max-width : 767px) and (min-width : 480px){
+	/* Front page
+	================================================== */
+  .section-publicite {
+    min-height: 0px;
+  }
+  .titre-publicite {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .wrapper-bouton-publicite  {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .wrapper-bouton-publicite > button {
+  padding: 1rem 2rem;
+  }
+
+  .main-background {
+    min-height: 500px;
+  }
+  .main-text {
+    margin-top: 9rem;
+    text-align: center;
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+  
+	/* Catalog
+	================================================== */
+
+	/* FOOTER
+	================================================== */
+  footer {
+
+    text-align: center;
+  }
+  footer p {
+    font-size: 0.9rem;
+  }
+  .footer-content > div > h4 {
+    text-align: center;
+  }
+  .icons {
+    text-align: center;
+  }
+  .copy {
+    text-align: center;
+  }
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) { /* + bootstrap */
+	/* Nav
+	================================================== */
+  .nav-link-tel {
+    font-size: 1rem;
+  }
+  .nav-link-tel > span {
+    font-family: 'Chilanka', cursive;
+    font-size: 1rem;
+  }
+
+  .nav-button {
+  }
+  .drop-down {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+  .drop-down-line {
+    height: 3px;
+    width: 30px;
+    margin-top: 0.4rem;
+  }
+  #extended-nav {
+    list-style: none;
+    width: 10rem;
+  }
+  .nav-sub-button > h3 {
+    font-size: 1rem;
+  }
+
+	/* Front page
+	================================================== */
+  .section-publicite {
+    min-height: 0px;
+  }
+  .titre-publicite {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    font-family: 'Chilanka', cursive;
+  }
+
+  .wrapper-bouton-publicite  {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .wrapper-bouton-publicite > button {
+  padding: 1rem 2rem;
+  }
+
+  .produit > img {
+    width: 100%;
+  }
+
+  .produit-2 {
+    margin-bottom: 4rem;
+  }
+
+  .icecream, .cone, .icecream::after {
+    display: none;
+  }
+
+  .transition-wrapper > ul {
+    display:block;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .section-title {
+    margin-top: 14rem;
+  }
+
+  .section-transition > .container{
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+  .main-bi-chevron-down  {
+    width: 70vw;
+    height: 70vw;
+    position: relative;
+    margin-top: -3rem;
+  }
+
+  .main-background {
+    min-height: 500px;
+  }
+  .main-text {
+    margin-top: 12rem;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  /* FOOTER
+	================================================== */
+  footer {
+
+    text-align: center;
+  }
+  footer p {
+    font-size: 0.9rem;
+  }
+  .footer-content > div > h4 {
+    text-align: center;
+  }
+  .icons {
+    text-align: center;
+  }
+  .copy {
+    text-align: center;
+  }
+}
