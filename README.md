@@ -1,24 +1,7 @@
-# portfolio2023
+# Portfolio | 2023
 
-## Project setup
-```
-npm install
-```
+### Available at: `https://mircea-gosman.github.io/`
+This repository is a quick way for anyone to access a summary of my intenrships & redirects to my projects. 
+It's packaged in the form of a Vue web app.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
